@@ -45,5 +45,6 @@ class VeiculosController extends Controller
         $veiculo->delete();
         //return $this->showAll();
         return redirect('/veiculos');
+        //AQUI
     }
 }
